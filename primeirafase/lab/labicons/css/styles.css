@@ -1,0 +1,16 @@
+.icon {
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px auto;
+    width: 90%;
+}

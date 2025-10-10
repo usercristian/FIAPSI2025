@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor-padrao: #ccc;
+    --cor-azul: #27a7b8;
+}
+
+.container {
+    width: 80%;
+    min-height: 500px;
+    margin: 20px auto;
+    border: 1px solid var(--cor-azul);
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    background-color: var(--cor-padrao);
+    margin: 10px;
+}
+
+.box-1 {flex-basis: 120px;}
+.box-2 {flex-basis: 200px;}
+.box-3 {flex-basis: 480px;}
+
+h2 {
+    clear: both;
+}
+
